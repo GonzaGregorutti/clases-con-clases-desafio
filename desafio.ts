@@ -71,4 +71,5 @@ function testClaseEdificio() {
   function main() {
     testClaseEdificio();
   }
+
   main();
