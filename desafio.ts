@@ -8,6 +8,7 @@ class Departamento{
         return this.nombre
     }
 }
+
 class Piso{
     nombre:string;
     deptos:Departamento[]
@@ -22,6 +23,7 @@ class Piso{
         return this.deptos
     }
 }
+
 
 class Edificio{
     pisos:Piso[]
@@ -70,6 +72,7 @@ function testClaseEdificio() {
   
   function main() {
     testClaseEdificio();
+      console.log("cambio hecho por ggg para el desafi0 cinco")
   }
 
   main();
